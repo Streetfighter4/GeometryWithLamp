@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yasen/Programming/Geometry/Blend.cpp
+Blend.h
+/home/yasen/Programming/Geometry/Blend.h
+
+/home/yasen/Programming/Geometry/Blend.h
+Point.h
+/home/yasen/Programming/Geometry/Point.h
+math.h
+-
+
+/home/yasen/Programming/Geometry/Lamp.cpp
+Lamp.h
+/home/yasen/Programming/Geometry/Lamp.h
+
+/home/yasen/Programming/Geometry/Lamp.h
+Blend.h
+/home/yasen/Programming/Geometry/Blend.h
+
+/home/yasen/Programming/Geometry/Point.cpp
+Point.h
+/home/yasen/Programming/Geometry/Point.h
+
+/home/yasen/Programming/Geometry/Point.h
+iostream
+-
+
+/home/yasen/Programming/Geometry/main.cpp
+Lamp.h
+/home/yasen/Programming/Geometry/Lamp.h
+

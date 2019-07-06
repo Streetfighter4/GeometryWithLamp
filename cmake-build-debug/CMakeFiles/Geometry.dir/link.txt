@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Geometry.dir/main.cpp.o CMakeFiles/Geometry.dir/Lamp.cpp.o CMakeFiles/Geometry.dir/Blend.cpp.o CMakeFiles/Geometry.dir/Point.cpp.o  -o Geometry 
