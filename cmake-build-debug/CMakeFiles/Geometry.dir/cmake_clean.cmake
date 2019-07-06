@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Geometry.dir/Lamp.cpp.o"
   "CMakeFiles/Geometry.dir/Blend.cpp.o"
   "CMakeFiles/Geometry.dir/Point.cpp.o"
+  "CMakeFiles/Geometry.dir/Plane.cpp.o"
+  "CMakeFiles/Geometry.dir/Line.cpp.o"
   "Geometry.pdb"
   "Geometry"
 )

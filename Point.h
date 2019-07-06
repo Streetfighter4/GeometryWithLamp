@@ -13,7 +13,8 @@ public:
     double x, y, z;
     double PCLength;
     double PCAngle;
-    Point();
+
+    explicit Point(double newX = 0.0, double newY = 0.0, double newZ = 0.0);
     void print() const;
 };
 

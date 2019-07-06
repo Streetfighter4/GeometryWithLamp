@@ -7,6 +7,7 @@
 
 
 #include "Blend.h"
+#include "Plane.h"
 
 class Lamp {
     double edgeLength;
@@ -16,6 +17,11 @@ class Lamp {
 public:
     explicit Lamp(double newEdgeLength = 10.0, double newAngle = 0.0, double blendEdgeLength = 0.0);
     void print() const;
+    void intersectionPointsWith(const Plane& plane);
+
+private:
+    double validEdgeLength(double newEdgeLength);
+    double validAngle(double newAngle);
 };
 
 

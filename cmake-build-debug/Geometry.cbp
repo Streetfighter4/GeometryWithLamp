@@ -96,6 +96,18 @@
 		<Unit filename="/home/yasen/Programming/Geometry/Lamp.h">
 			<Option target="Geometry"/>
 		</Unit>
+		<Unit filename="/home/yasen/Programming/Geometry/Line.cpp">
+			<Option target="Geometry"/>
+		</Unit>
+		<Unit filename="/home/yasen/Programming/Geometry/Line.h">
+			<Option target="Geometry"/>
+		</Unit>
+		<Unit filename="/home/yasen/Programming/Geometry/Plane.cpp">
+			<Option target="Geometry"/>
+		</Unit>
+		<Unit filename="/home/yasen/Programming/Geometry/Plane.h">
+			<Option target="Geometry"/>
+		</Unit>
 		<Unit filename="/home/yasen/Programming/Geometry/Point.cpp">
 			<Option target="Geometry"/>
 		</Unit>

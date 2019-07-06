@@ -177,6 +177,60 @@ Lamp.cpp.s:
 	$(MAKE) -f CMakeFiles/Geometry.dir/build.make CMakeFiles/Geometry.dir/Lamp.cpp.s
 .PHONY : Lamp.cpp.s
 
+Line.o: Line.cpp.o
+
+.PHONY : Line.o
+
+# target to build an object file
+Line.cpp.o:
+	$(MAKE) -f CMakeFiles/Geometry.dir/build.make CMakeFiles/Geometry.dir/Line.cpp.o
+.PHONY : Line.cpp.o
+
+Line.i: Line.cpp.i
+
+.PHONY : Line.i
+
+# target to preprocess a source file
+Line.cpp.i:
+	$(MAKE) -f CMakeFiles/Geometry.dir/build.make CMakeFiles/Geometry.dir/Line.cpp.i
+.PHONY : Line.cpp.i
+
+Line.s: Line.cpp.s
+
+.PHONY : Line.s
+
+# target to generate assembly for a file
+Line.cpp.s:
+	$(MAKE) -f CMakeFiles/Geometry.dir/build.make CMakeFiles/Geometry.dir/Line.cpp.s
+.PHONY : Line.cpp.s
+
+Plane.o: Plane.cpp.o
+
+.PHONY : Plane.o
+
+# target to build an object file
+Plane.cpp.o:
+	$(MAKE) -f CMakeFiles/Geometry.dir/build.make CMakeFiles/Geometry.dir/Plane.cpp.o
+.PHONY : Plane.cpp.o
+
+Plane.i: Plane.cpp.i
+
+.PHONY : Plane.i
+
+# target to preprocess a source file
+Plane.cpp.i:
+	$(MAKE) -f CMakeFiles/Geometry.dir/build.make CMakeFiles/Geometry.dir/Plane.cpp.i
+.PHONY : Plane.cpp.i
+
+Plane.s: Plane.cpp.s
+
+.PHONY : Plane.s
+
+# target to generate assembly for a file
+Plane.cpp.s:
+	$(MAKE) -f CMakeFiles/Geometry.dir/build.make CMakeFiles/Geometry.dir/Plane.cpp.s
+.PHONY : Plane.cpp.s
+
 Point.o: Point.cpp.o
 
 .PHONY : Point.o
@@ -246,6 +300,12 @@ help:
 	@echo "... Lamp.o"
 	@echo "... Lamp.i"
 	@echo "... Lamp.s"
+	@echo "... Line.o"
+	@echo "... Line.i"
+	@echo "... Line.s"
+	@echo "... Plane.o"
+	@echo "... Plane.i"
+	@echo "... Plane.s"
 	@echo "... Point.o"
 	@echo "... Point.i"
 	@echo "... Point.s"

@@ -13,7 +13,11 @@ Blend.h
 /home/yasen/Programming/Geometry/Blend.h
 Point.h
 /home/yasen/Programming/Geometry/Point.h
-math.h
+Plane.h
+/home/yasen/Programming/Geometry/Plane.h
+Line.h
+/home/yasen/Programming/Geometry/Line.h
+cmath
 -
 
 /home/yasen/Programming/Geometry/Lamp.cpp
@@ -23,8 +27,28 @@ Lamp.h
 /home/yasen/Programming/Geometry/Lamp.h
 Blend.h
 /home/yasen/Programming/Geometry/Blend.h
+Plane.h
+/home/yasen/Programming/Geometry/Plane.h
+
+/home/yasen/Programming/Geometry/Line.cpp
+Line.h
+/home/yasen/Programming/Geometry/Line.h
+
+/home/yasen/Programming/Geometry/Line.h
+Point.h
+/home/yasen/Programming/Geometry/Point.h
+Plane.h
+/home/yasen/Programming/Geometry/Plane.h
+
+/home/yasen/Programming/Geometry/Plane.cpp
+Plane.h
+/home/yasen/Programming/Geometry/Plane.h
+
+/home/yasen/Programming/Geometry/Plane.h
 
 /home/yasen/Programming/Geometry/Point.cpp
+iomanip
+-
 Point.h
 /home/yasen/Programming/Geometry/Point.h
 

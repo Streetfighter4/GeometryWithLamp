@@ -7,22 +7,21 @@
 
 
 #include "Point.h"
-#include <math.h>
+#include "Plane.h"
+#include "Line.h"
+#include <cmath>
 
 #define PI 3.14159265
 
 class Blend {
     Point a, b, c, d, center1, center2;
+    Line lineA, lineB, lineC, lineD;
     double edgeLength;
 
 public:
-    Blend();
-    void setEdgeLength(double newEdgeLength) {
-        edgeLength = newEdgeLength;
-    }
-    void setStartCoordOnPoints(double edgeLamp);
+    explicit Blend(double newBlendEdgeLength, double edgeLamp);
     void setPointsByAngle(double angle);
-
+    void intersectionPointsWith(const Plane& plane);
     void print() const;
 };
 

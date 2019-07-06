@@ -3,4 +3,4 @@ project(Geometry)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Geometry main.cpp Lamp.cpp Lamp.h Blend.cpp Blend.h Point.cpp Point.h)
+add_executable(Geometry main.cpp Lamp.cpp Lamp.h Blend.cpp Blend.h Point.cpp Point.h Plane.cpp Plane.h Line.cpp Line.h)

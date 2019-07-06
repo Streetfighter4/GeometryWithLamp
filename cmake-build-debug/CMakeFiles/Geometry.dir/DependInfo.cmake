@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/yasen/Programming/Geometry/Blend.cpp" "/home/yasen/Programming/Geometry/cmake-build-debug/CMakeFiles/Geometry.dir/Blend.cpp.o"
   "/home/yasen/Programming/Geometry/Lamp.cpp" "/home/yasen/Programming/Geometry/cmake-build-debug/CMakeFiles/Geometry.dir/Lamp.cpp.o"
+  "/home/yasen/Programming/Geometry/Line.cpp" "/home/yasen/Programming/Geometry/cmake-build-debug/CMakeFiles/Geometry.dir/Line.cpp.o"
+  "/home/yasen/Programming/Geometry/Plane.cpp" "/home/yasen/Programming/Geometry/cmake-build-debug/CMakeFiles/Geometry.dir/Plane.cpp.o"
   "/home/yasen/Programming/Geometry/Point.cpp" "/home/yasen/Programming/Geometry/cmake-build-debug/CMakeFiles/Geometry.dir/Point.cpp.o"
   "/home/yasen/Programming/Geometry/main.cpp" "/home/yasen/Programming/Geometry/cmake-build-debug/CMakeFiles/Geometry.dir/main.cpp.o"
   )
