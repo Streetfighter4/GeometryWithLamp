@@ -13,11 +13,11 @@ void Blend::setPointsByAngle(double angle) {
 
     double halfLengthOnBlend = edgeLength/2;
 
-    center1.x = center1.PCLength*cos(center1.PCAngle);
-    center1.z = center1.PCLength*sin(center1.PCAngle);
+    center1.x = center1.PCLength*sin(center1.PCAngle*PI/180);
+    center1.z = center1.PCLength*cos(center1.PCAngle*PI/180);
 
-    center2.x = center2.PCLength*cos(center2.PCAngle);
-    center2.z = center2.PCLength*sin(center2.PCAngle);
+    center2.x = center2.PCLength*sin(center2.PCAngle*PI/180);
+    center2.z = center2.PCLength*cos(center2.PCAngle*PI/180);
 
     a.x = center1.x;
     a.y = halfLengthOnBlend;
@@ -46,13 +46,13 @@ void Blend::setStartCoordOnPoints(double edgeLamp) {
     center1.y = 0;
     center1.z = heightLamp;
     center1.PCLength = sqrt(center1.x * center1.x + center1.z * center1.z);
-    center1.PCAngle = (atan(center1.z / center1.x) * 180) / PI;
+    center1.PCAngle = atan(center1.z / center1.x);
 
     center2.x = halfLengthOnBlend;
     center2.y = 0;
     center2.z = heightLamp;
     center2.PCLength = sqrt(center2.x * center2.x + center2.z * center2.z);
-    center2.PCAngle = (atan(center2.z / center2.x) * 180) / PI;
+    center2.PCAngle = atan(center2.z / center2.x);
 
 }
 
