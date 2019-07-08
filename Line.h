@@ -13,6 +13,7 @@ class Line {
     Point p1, p2;
 public:
     Line();
+    Line(const Point& newP1, const Point& newP2);
     void setPoint(const Point& newP1, const Point& newP2);
     void intersectionPointWith(const Plane& plane);
 };

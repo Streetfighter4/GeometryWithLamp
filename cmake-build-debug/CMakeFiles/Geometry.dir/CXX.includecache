@@ -45,6 +45,10 @@ Plane.h
 /home/yasen/Programming/Geometry/Plane.h
 
 /home/yasen/Programming/Geometry/Plane.h
+vector
+-
+Point.h
+/home/yasen/Programming/Geometry/Point.h
 
 /home/yasen/Programming/Geometry/Point.cpp
 iomanip

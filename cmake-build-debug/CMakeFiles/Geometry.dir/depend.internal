@@ -22,6 +22,7 @@ CMakeFiles/Geometry.dir/Line.cpp.o
 CMakeFiles/Geometry.dir/Plane.cpp.o
  /home/yasen/Programming/Geometry/Plane.cpp
  /home/yasen/Programming/Geometry/Plane.h
+ /home/yasen/Programming/Geometry/Point.h
 CMakeFiles/Geometry.dir/Point.cpp.o
  /home/yasen/Programming/Geometry/Point.cpp
  /home/yasen/Programming/Geometry/Point.h

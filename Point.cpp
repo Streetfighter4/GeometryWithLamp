@@ -12,6 +12,4 @@ void Point::print() const {
     std::cout << std::setprecision(2) << "x: " << x << std::endl;
     std::cout << "y: " << y << std::endl;
     std::cout << "z: " << z << std::endl;
-    //std::cout << "PCAngle: " << PCAngle << std::endl;
-    //std::cout << "PCLength: " << PCLength << std::endl;
 }

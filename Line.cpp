@@ -6,8 +6,12 @@
 
 Line::Line() {}
 
+Line::Line(const Point &newP1, const Point& newP2) {
+    setPoint(newP1, newP2);
+}
+
 void Line::intersectionPointWith(const Plane& plane) {
-    double t = plane.getD() / (p2.z - p1.z);
+    double t = plane.d / (p2.z - p1.z);
     Point intersectionPoint(p1.x + p2.x*t, p1.y + p2.y*t, p1.z + p2.z*t);
     intersectionPoint.print();
 }

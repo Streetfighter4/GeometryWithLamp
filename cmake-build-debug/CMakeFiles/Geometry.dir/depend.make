@@ -21,6 +21,7 @@ CMakeFiles/Geometry.dir/Line.cpp.o: ../Point.h
 
 CMakeFiles/Geometry.dir/Plane.cpp.o: ../Plane.cpp
 CMakeFiles/Geometry.dir/Plane.cpp.o: ../Plane.h
+CMakeFiles/Geometry.dir/Plane.cpp.o: ../Point.h
 
 CMakeFiles/Geometry.dir/Point.cpp.o: ../Point.cpp
 CMakeFiles/Geometry.dir/Point.cpp.o: ../Point.h

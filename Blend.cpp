@@ -46,51 +46,27 @@ void Blend::setPointsByAngle(double angle) {
     a.x = center1.x;
     a.y = halfLengthOnBlend;
     a.z = center1.z;
-    lineA.setPoint(start, a);
+    lines[0].setPoint(start, a);
 
     b.x = center2.x;
     b.y = halfLengthOnBlend;
     b.z = center2.z;
-    lineB.setPoint(start, b);
+    lines[1].setPoint(start, b);
 
     c.x = center2.x;
     c.y = -halfLengthOnBlend;
     c.z = center2.z;
-    lineC.setPoint(start, c);
+    lines[2].setPoint(start, c);
 
     d.x = center1.x;
     d.y = -halfLengthOnBlend;
     d.z = center1.z;
-    lineD.setPoint(start, d);
-}
-
-
-void Blend::print() const {
-    std::cout << "A:" << std::endl;
-    a.print();
-    std::cout << "B:" << std::endl;
-    b.print();
-    std::cout << "C:" << std::endl;
-    c.print();
-    std::cout << "D:" << std::endl;
-    d.print();
-    std::cout << "Center1:" << std::endl;
-    center1.print();
-    std::cout << "Center2:" << std::endl;
-    center2.print();
-    std::cout << std::endl;
+    lines[3].setPoint(start, d);
 }
 
 void Blend::intersectionPointsWith(const Plane& plane) {
-    std::cout << "PointA: " << std::endl;
-    lineA.intersectionPointWith(plane);
-
-    std::cout << "PointB: " << std::endl;
-    lineB.intersectionPointWith(plane);
-
-    std::cout << "PointC: " << std::endl;
-    lineC.intersectionPointWith(plane);
-
-    std::cout << "PointD: " << std::endl;
-    lineD.intersectionPointWith(plane);
+    for (int i = 0; i < 4; ++i) {
+        std::cout << "Point " << i+1 << std::endl;
+        lines[i].intersectionPointWith(plane);
+    }
 }

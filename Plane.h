@@ -6,11 +6,14 @@
 #define GEOMETRY_PLANE_H
 
 
+#include <vector>
+#include "Point.h"
+
 class Plane {
-    double a, b, c, d;
+
 public:
+    double a, b, c, d;
     explicit Plane(double distance);
-    double getD() const ;
 };
 
 

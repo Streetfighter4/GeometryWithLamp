@@ -16,7 +16,6 @@ class Lamp {
     Blend blend;
 public:
     explicit Lamp(double newEdgeLength = 10.0, double newAngle = 0.0, double blendEdgeLength = 0.0);
-    void print() const;
     void intersectionPointsWith(const Plane& plane);
 
 private:

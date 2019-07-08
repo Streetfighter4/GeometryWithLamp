@@ -7,12 +7,7 @@
 Lamp::Lamp(double newEdgeLength, double newAngle, double newBlendEdgeLength) : edgeLength(validEdgeLength(newEdgeLength)),
                 angle(validAngle(newAngle)), blend(newBlendEdgeLength, edgeLength) {
 
-    //blend.print();
     blend.setPointsByAngle(angle);
-}
-
-void Lamp::print() const {
-    blend.print();
 }
 
 double Lamp::validEdgeLength(double newEdgeLength) {
@@ -27,9 +22,9 @@ double Lamp::validEdgeLength(double newEdgeLength) {
 
 double Lamp::validAngle(double newAngle) {
     if(newAngle > 60.0) {
-        return  60.0;
+        return 60.0;
     } else if(newAngle < -60.0) {
-        return  -60.0;
+        return -60.0;
     } else {
         return newAngle;
     }

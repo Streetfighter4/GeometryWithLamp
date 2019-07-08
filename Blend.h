@@ -15,7 +15,7 @@
 
 class Blend {
     Point a, b, c, d, center1, center2;
-    Line lineA, lineB, lineC, lineD;
+    Line lines[4];
     double edgeLength;
 
 public:
